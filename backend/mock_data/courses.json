@@ -1,0 +1,374 @@
+{
+  "courses": [
+    {
+      "id": "course-001",
+      "name": "鎌倉歴史散策コース",
+      "description": "鎌倉の歴史的なスポットを巡る王道コース。大仏や長谷寺など、見どころ満載です。",
+      "area": "神奈川",
+      "duration_hours": 6.0,
+      "spots": [
+        {
+          "name": "鎌倉大仏（高徳院）",
+          "description": "国宝の阿弥陀如来像。鎌倉のシンボル的存在です。",
+          "duration_minutes": 60,
+          "category": "観光"
+        },
+        {
+          "name": "長谷寺",
+          "description": "四季折々の花が美しい寺院。展望台からの眺めも素晴らしい。",
+          "duration_minutes": 45,
+          "category": "観光"
+        },
+        {
+          "name": "鎌倉小町通り",
+          "description": "お土産やグルメが楽しめる人気の商店街。",
+          "duration_minutes": 90,
+          "category": "食事"
+        },
+        {
+          "name": "鶴岡八幡宮",
+          "description": "鎌倉を代表する神社。源頼朝ゆかりの地。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 5000,
+        "max_amount": 10000,
+        "includes": ["拝観料", "昼食", "お土産"]
+      },
+      "tags": ["歴史", "家族向け", "初心者向け"],
+      "image_url": null
+    },
+    {
+      "id": "course-002",
+      "name": "横浜ベイエリア満喫コース",
+      "description": "みなとみらいを中心に、横浜の魅力を満喫できるコースです。",
+      "area": "神奈川",
+      "duration_hours": 8.0,
+      "spots": [
+        {
+          "name": "横浜赤レンガ倉庫",
+          "description": "ショッピングやグルメが楽しめる人気スポット。",
+          "duration_minutes": 90,
+          "category": "観光"
+        },
+        {
+          "name": "横浜中華街",
+          "description": "日本最大級の中華街。本格中華を堪能できます。",
+          "duration_minutes": 120,
+          "category": "食事"
+        },
+        {
+          "name": "カップヌードルミュージアム",
+          "description": "オリジナルカップヌードル作りが体験できます。",
+          "duration_minutes": 90,
+          "category": "体験"
+        },
+        {
+          "name": "山下公園",
+          "description": "海沿いの美しい公園。氷川丸も見学できます。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 8000,
+        "max_amount": 15000,
+        "includes": ["入館料", "昼食", "体験料"]
+      },
+      "tags": ["グルメ", "カップル", "デート"],
+      "image_url": null
+    },
+    {
+      "id": "course-003",
+      "name": "箱根温泉リラックスコース",
+      "description": "箱根の自然と温泉を楽しむ癒しの旅。",
+      "area": "神奈川",
+      "duration_hours": 10.0,
+      "spots": [
+        {
+          "name": "大涌谷",
+          "description": "火山活動を間近で見られる迫力スポット。黒たまごが名物。",
+          "duration_minutes": 60,
+          "category": "観光"
+        },
+        {
+          "name": "箱根神社",
+          "description": "芦ノ湖畔にある荘厳な神社。縁結びのパワースポット。",
+          "duration_minutes": 45,
+          "category": "観光"
+        },
+        {
+          "name": "芦ノ湖遊覧船",
+          "description": "湖上から箱根の景色を楽しめます。",
+          "duration_minutes": 60,
+          "category": "体験"
+        },
+        {
+          "name": "日帰り温泉",
+          "description": "箱根の名湯で疲れを癒します。",
+          "duration_minutes": 120,
+          "category": "体験"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 10000,
+        "max_amount": 20000,
+        "includes": ["交通費", "入浴料", "昼食"]
+      },
+      "tags": ["温泉", "リラックス", "自然"],
+      "image_url": null
+    },
+    {
+      "id": "course-004",
+      "name": "東京スカイツリー周辺コース",
+      "description": "スカイツリーと下町の魅力を楽しめるコース。",
+      "area": "東京",
+      "duration_hours": 5.0,
+      "spots": [
+        {
+          "name": "東京スカイツリー",
+          "description": "世界一高い電波塔。展望デッキからの眺めは圧巻。",
+          "duration_minutes": 90,
+          "category": "観光"
+        },
+        {
+          "name": "東京ソラマチ",
+          "description": "スカイツリー直結のショッピングモール。",
+          "duration_minutes": 60,
+          "category": "観光"
+        },
+        {
+          "name": "浅草寺",
+          "description": "東京最古のお寺。雷門や仲見世も必見。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 5000,
+        "max_amount": 8000,
+        "includes": ["展望台入場料", "昼食"]
+      },
+      "tags": ["観光", "下町", "初心者向け"],
+      "image_url": null
+    },
+    {
+      "id": "course-005",
+      "name": "渋谷・原宿トレンドコース",
+      "description": "若者文化の発信地を巡る最新トレンドコース。",
+      "area": "東京",
+      "duration_hours": 6.0,
+      "spots": [
+        {
+          "name": "渋谷スクランブル交差点",
+          "description": "世界的に有名な交差点。渋谷のシンボル。",
+          "duration_minutes": 30,
+          "category": "観光"
+        },
+        {
+          "name": "渋谷109",
+          "description": "ファッションの聖地。最新トレンドをチェック。",
+          "duration_minutes": 90,
+          "category": "観光"
+        },
+        {
+          "name": "原宿竹下通り",
+          "description": "カラフルでポップなお店が並ぶ人気ストリート。",
+          "duration_minutes": 60,
+          "category": "観光"
+        },
+        {
+          "name": "明治神宮",
+          "description": "都心の中の静かな森。心が落ち着くパワースポット。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 5000,
+        "max_amount": 15000,
+        "includes": ["昼食", "ショッピング"]
+      },
+      "tags": ["トレンド", "若者向け", "ショッピング"],
+      "image_url": null
+    },
+    {
+      "id": "course-006",
+      "name": "東京ディズニーリゾート満喫コース",
+      "description": "夢と魔法の王国を1日中楽しむコース。",
+      "area": "千葉",
+      "duration_hours": 12.0,
+      "spots": [
+        {
+          "name": "東京ディズニーランド",
+          "description": "7つのテーマランドで構成された夢の国。",
+          "duration_minutes": 600,
+          "category": "体験"
+        },
+        {
+          "name": "イクスピアリ",
+          "description": "舞浜駅直結のショッピングモール。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 15000,
+        "max_amount": 30000,
+        "includes": ["パスポート", "食事", "お土産"]
+      },
+      "tags": ["テーマパーク", "家族向け", "アクティブ"],
+      "image_url": null
+    },
+    {
+      "id": "course-007",
+      "name": "成田山新勝寺参拝コース",
+      "description": "成田山で心を清める日帰り参拝コース。",
+      "area": "千葉",
+      "duration_hours": 5.0,
+      "spots": [
+        {
+          "name": "成田山新勝寺",
+          "description": "関東三大不動の一つ。歴史ある寺院です。",
+          "duration_minutes": 90,
+          "category": "観光"
+        },
+        {
+          "name": "成田山表参道",
+          "description": "うなぎや和菓子の名店が並ぶ参道。",
+          "duration_minutes": 90,
+          "category": "食事"
+        },
+        {
+          "name": "成田山公園",
+          "description": "四季折々の自然を楽しめる広大な公園。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 3000,
+        "max_amount": 6000,
+        "includes": ["昼食", "お土産"]
+      },
+      "tags": ["歴史", "パワースポット", "グルメ"],
+      "image_url": null
+    },
+    {
+      "id": "course-008",
+      "name": "熱海温泉街散策コース",
+      "description": "レトロな温泉街を歩く癒しの旅。",
+      "area": "静岡",
+      "duration_hours": 7.0,
+      "spots": [
+        {
+          "name": "熱海サンビーチ",
+          "description": "ヤシの木が並ぶトロピカルなビーチ。",
+          "duration_minutes": 60,
+          "category": "観光"
+        },
+        {
+          "name": "来宮神社",
+          "description": "樹齢2000年以上の大楠がパワースポット。",
+          "duration_minutes": 45,
+          "category": "観光"
+        },
+        {
+          "name": "熱海温泉",
+          "description": "日本を代表する温泉地で癒しのひととき。",
+          "duration_minutes": 120,
+          "category": "体験"
+        },
+        {
+          "name": "熱海銀座商店街",
+          "description": "レトロな商店街でお土産探し。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 8000,
+        "max_amount": 15000,
+        "includes": ["入浴料", "昼食", "お土産"]
+      },
+      "tags": ["温泉", "レトロ", "カップル"],
+      "image_url": null
+    },
+    {
+      "id": "course-009",
+      "name": "富士山眺望ドライブコース",
+      "description": "富士山の絶景ポイントを巡るドライブコース。",
+      "area": "静岡",
+      "duration_hours": 8.0,
+      "spots": [
+        {
+          "name": "富士山本宮浅間大社",
+          "description": "富士山を祀る総本社。パワースポットとしても有名。",
+          "duration_minutes": 60,
+          "category": "観光"
+        },
+        {
+          "name": "白糸の滝",
+          "description": "幅200mの壮大な滝。マイナスイオンたっぷり。",
+          "duration_minutes": 45,
+          "category": "観光"
+        },
+        {
+          "name": "朝霧高原",
+          "description": "富士山を背景にした牧歌的な風景。",
+          "duration_minutes": 60,
+          "category": "観光"
+        },
+        {
+          "name": "富士宮やきそば",
+          "description": "B級グルメの王者。地元の味を堪能。",
+          "duration_minutes": 60,
+          "category": "食事"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 6000,
+        "max_amount": 12000,
+        "includes": ["ガソリン代", "昼食", "お土産"]
+      },
+      "tags": ["ドライブ", "絶景", "自然"],
+      "image_url": null
+    },
+    {
+      "id": "course-010",
+      "name": "江ノ島・湘南海岸コース",
+      "description": "海風を感じながら湘南エリアを満喫。",
+      "area": "神奈川",
+      "duration_hours": 7.0,
+      "spots": [
+        {
+          "name": "江ノ島",
+          "description": "シーキャンドルや岩屋など見どころ満載の島。",
+          "duration_minutes": 180,
+          "category": "観光"
+        },
+        {
+          "name": "新江ノ島水族館",
+          "description": "相模湾の生き物たちと出会える水族館。",
+          "duration_minutes": 90,
+          "category": "観光"
+        },
+        {
+          "name": "湘南海岸",
+          "description": "サーフィンのメッカ。海辺の散歩も気持ちいい。",
+          "duration_minutes": 60,
+          "category": "観光"
+        }
+      ],
+      "estimated_budget": {
+        "min_amount": 6000,
+        "max_amount": 12000,
+        "includes": ["入館料", "昼食", "交通費"]
+      },
+      "tags": ["海", "デート", "アクティブ"],
+      "image_url": null
+    }
+  ]
+}
